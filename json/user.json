@@ -1,0 +1,72 @@
+﻿userdata =[
+    {
+        "userid": "001",
+        "mail": "test001@olympus.com",
+        "username": "ユーザー1",
+        "permissiontype": "管理者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "002",
+        "mail": "test002@olympus.com",
+        "username": "ユーザー2",
+        "permissiontype": "作業者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "003",
+        "mail": "test003@olympus.com",
+        "username": "ユーザー3",
+        "permissiontype": "管理者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "004",
+        "mail": "test004@olympus.com",
+        "username": "ユーザー4",
+        "permissiontype": "作業者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "005",
+        "mail": "test005@olympus.com",
+        "username": "ユーザー5",
+        "permissiontype": "管理者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "006",
+        "mail": "test006@olympus.com",
+        "username": "ユーザー6",
+        "permissiontype": "作業者",
+        "enableflg": "1"
+    },
+    {
+        "userid": "007",
+        "mail": "test007@olympus.com",
+        "username": "ユーザー7",
+        "permissiontype": "管理者",
+        "enableflg": "0"
+    },
+    {
+        "userid": "008",
+        "mail": "test008@olympus.com",
+        "username": "ユーザー8",
+        "permissiontype": "作業者",
+        "enableflg": "0"
+    },
+    {
+        "userid": "009",
+        "mail": "test009@olympus.com",
+        "username": "ユーザー9",
+        "permissiontype": "管理者",
+        "enableflg": "0"
+    },
+    {
+        "userid": "010",
+        "mail": "test010@olympus.com",
+        "username": "ユーザー10",
+        "permissiontype": "作業者",
+        "enableflg": "0"
+    }
+];

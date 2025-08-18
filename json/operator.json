@@ -1,0 +1,370 @@
+﻿operatordata =[
+    {
+        "domainid": "ot",
+        "pass": "recruit/privacy.html",
+        "title": "採用活動における個人情報の取り扱いについて：採用情報：オリンパス",
+        "inventory_data": "2022/02/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "/csr/effort/activity/corporate_citizenship_activities_policy.html",
+        "title": "企業市民活動方針：CSR関連方針：オリンパス",
+        "inventory_data": "2022/01/13",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "features/kids",
+        "title": "オリンパスキッズ：特集：オリンパス",
+        "inventory_data": "2022/01/16",
+        "invenrory_status": "未完了",
+        "remark": "ディレクトリ移動のため削除"
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/diversity",
+        "title": "ダイバーシティ＆インクルージョン：オリンパス",
+        "inventory_data": "2022/02/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/environmentally-conscious-tech",
+        "title": "オリンパスの製品、技術における環境配慮：特集：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/environment",
+        "title": "オリンパス環境月間：CSR活動：オリンパス",
+        "inventory_data": "2022/02/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "news/covid19",
+        "title": "新型コロナウイルスへの当社の対応について：ニュース：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "/company/milestones/100years",
+        "title": "オリンパスの100年 革新の歴史：企業情報：オリンパス",
+        "inventory_data": "2022/02/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/learning-about-science-and-the-future",
+        "title": "学ぼう、科学のこと将来のこと: CSR活動 : オリンパス",
+        "inventory_data": "2022/02/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/learning-about-cancer",
+        "title": "がんを知ろう - Shine a Light on Cancer - : CSR活動 : オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/iso14001",
+        "title": "ISO14001（環境マネジメントシステム）認証取得状況：CSR活動：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "company/kids",
+        "title": "オリンパスキッズ：企業情報：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "company/gopc",
+        "title": "オリンパスグローバルオープンフォトコンテスト：企業情報：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "company/interview-photographers",
+        "title": "写真で伝えたいこと：企業情報：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "company/iwago",
+        "title": "IWAGO - 動物写真家 岩合光昭 -：オリンパス",
+        "inventory_data": "2021/02/01",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "company/sponsorship",
+        "title": "スポンサーシップ：企業情報：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "press/2021",
+        "title": "2021年：Press Room：オリンパス",
+        "inventory_data": "2021/02/01",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "/company/profile/movie",
+        "title": "動画で知るオリンパス：企業情報：オリンパス",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "/company/philosophy/philosophy.html",
+        "title": "経営理念：経営理念・方針：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/esg",
+        "title": "オリンパスグループのESG：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/compliance",
+        "title": "コンプライアンスおよび製品の品質安全性への注力：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/decarbonization",
+        "title": "社会と協調した脱炭素・循環型社会実現への貢献：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/provision",
+        "title": "医療機会の幅広い提供およびアウトカムの向上：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/editorial-policy",
+        "title": "編集方針 - Education Creates the Future - : サステナビリティ : オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/initiative",
+        "title": "外部イニシアティブへの参画：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/social",
+        "title": "社会：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/evaluation",
+        "title": "社外評価：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/supplychain",
+        "title": "責任あるサプライチェーンの推進：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/governance",
+        "title": "ガバナンス：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "csr/gri",
+        "title": "GRI内容索引：サステナビリティ：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "ot",
+        "pass": "cvs2021-policy",
+        "title": "企業情報：オリンパス",
+        "inventory_data": "2020/05/31",
+        "invenrory_status": "未完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "features",
+        "title": "Features : OLYMPUS",
+        "inventory_data": "2020/09/11",
+        "invenrory_status": "完了",
+        "remark": "ディレクトリ移行のため削除"
+    },
+    {
+        "domainid": "global",
+        "pass": "features/gopc",
+        "title": "Olympus Global Open Photo Contest : Features : OLYMPUS",
+        "inventory_data": "2020/09/11",
+        "invenrory_status": "完了",
+        "remark": "ディレクトリ移行のため削除"
+    },
+    {
+        "domainid": "global",
+        "pass": "features/truetolife",
+        "title": "True to LIFE",
+        "inventory_data": "2020/09/11",
+        "invenrory_status": "完了",
+        "remark": "コンテンツ削除のため棚卸対象外"
+    },
+    {
+        "domainid": "global",
+        "pass": "features/100years",
+        "title": "Olympus 100th Anniversary : Features : OLYMPUS",
+        "inventory_data": "2020/09/11",
+        "invenrory_status": "完了",
+        "remark": "コンテンツ削除のため棚卸対象外"
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/effort",
+        "title": "List of Policies : Sustainability : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/download",
+        "title": "Past CSR Reports : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/procurement",
+        "title": "Procurement : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/medical",
+        "title": "Contributing to Society through Medical Business : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/activities",
+        "title": "Olympus Corporate Citizenship Activities : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr",
+        "title": "Sustainability : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/education-creates-the-future",
+        "title": "Youth Education Support Campaign - Education Creates the Future - : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "csr/shine-a-light-on-cancer",
+        "title": "Cancer Awareness Campaign - Shine a Light on Cancer - : CSR Activities : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "socialmedia",
+        "title": "Olympus Official Social Media Accounts : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "technology/design",
+        "title": "Olympus Design : Technology : OLYMPUS",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    },
+    {
+        "domainid": "global",
+        "pass": "technology/core",
+        "title": "Core-Technology | Technology | Olympus",
+        "inventory_data": "2021/05/31",
+        "invenrory_status": "完了",
+        "remark": ""
+    }
+];

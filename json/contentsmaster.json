@@ -1,0 +1,62 @@
+﻿contentsmasterdata =[
+    {
+        "directoryid": "001",
+        "domainid": "1",
+        "directorypass": "/news/2020/nr01959.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "002",
+        "domainid": "1",
+        "directorypass": "/news/release/2021/",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "003",
+        "domainid": "1",
+        "directorypass": "/ir/summary/quarterly.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "004",
+        "domainid": "1",
+        "directorypass": "/csr/effort/warming.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "005",
+        "domainid": "1",
+        "directorypass": "/recruit/privacy.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "006",
+        "domainid": "2",
+        "directorypass": "/news/2020/nr01959.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "007",
+        "domainid": "2",
+        "directorypass": "/news/release/2021/",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "008",
+        "domainid": "2",
+        "directorypass": "/ir/summary/quarterly.html",
+        "enableflg": "1"
+    },
+    {
+        "directoryid": "009",
+        "domainid": "2",
+        "directorypass": "/csr/effort/warming.html",
+        "enableflg": "0"
+    },
+    {
+        "directoryid": "010",
+        "domainid": "2",
+        "directorypass": "/recruit/privacy.html",
+        "enableflg": "0"
+    }
+];

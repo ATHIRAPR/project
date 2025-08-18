@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CUMS コンテンツ一覧</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/lib/handsontable.full.min.css">
+    <link rel="stylesheet" href="./css/lib/material.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./css/lib/tooltipster.main.min.css" />
+    <link rel="stylesheet" href="./css/lib/tooltipster.bundle.min.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body class="no-disp">
+    <div id="load" class="load"></div>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">CUMS　コンテンツ一覧</span>
+                <div class="mdl-layout-spacer"></div>
+                <span class="material-icons mr5">
+                    account_circle
+                </span>
+                <span id="username" class="mr20"></span>
+                <a class="helpicon" href="mailto:sumito.shimoda@olympus.com?subject=CUMS問合せ">
+                    <span class="material-icons">
+                        help_outline
+                    </span>
+                </a>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <div class="mdl-layout-spacer"></div>
+                <img class="loaderimg" id="loaderimg" src="./img/loaderimg.gif">
+                <button id="save_btn"
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent ">
+                    保存
+                </button>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div style="height: 90%">
+                    <div class="mdl-card mdl-shadow--2dp mdl-card_base">
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <div id="hot_table"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script type="text/javascript" src="json/operator.json"></script>
+
+    <script src="./js/lib/handsontable.full.min.js"></script>
+    <script src="./js/lib/jquery-3.6.0.min.js"></script>
+    <script src="./js/lib/material.min.js"></script>
+    <script src="./js/lib/tooltipster.main.min.js"></script>
+    <script src="./js/lib/tooltipster.bundle.min.js"></script>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/operatpr.js"></script>
+</body>
+
+</html>

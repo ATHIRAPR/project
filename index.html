@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CUMS ログイン</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/lib/material.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body class="no-disp">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">CUMS</span>
+                <div class="mdl-layout-spacer"></div>
+                <img class="loaderimg" id="loaderimg" src="./img/loaderimg.gif">
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-card mdl-shadow--2dp mdl-card_base maxheight">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <h3 class="center">ログイン</h3>
+                            <p class="errmsg" id="errmsg"></p>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="text" id="mail" maxlength="256">
+                                <label class="mdl-textfield__label" for="mail">Mail</label>
+                            </div>
+                            <br>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="password" id="password" maxlength="256">
+                                <label class="mdl-textfield__label" for="password">Password</label>
+                            </div>
+                            <br>
+                            <br>
+                            <p id="errmsg"></p>
+                            <button id="login_btn"
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mw">
+                                ログイン
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/lib/jquery-3.6.0.min.js"></script>
+    <script src="./js/lib/material.min.js"></script>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
