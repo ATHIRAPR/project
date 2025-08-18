@@ -1,0 +1,21 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+/oil
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# dynamically generated files
+app/logs/*/*/*
+app/cache/*/*
+app/config/crypt.php

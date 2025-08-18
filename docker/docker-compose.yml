@@ -1,0 +1,39 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - '3000:80'
+    depends_on:
+      - db
+    links:
+      - 'db:mysql'
+    environment:
+      MYSQL_DB_HOST: 'mysql:3306'
+      MYSQL_DB_PASSWORD: ${MYSQL_DB_PASSWORD}
+      MYSQL_DB_USER: ${MYSQL_DB_USER}
+      MYSQL_DB_NAME: ${MYSQL_DB_NAME}
+    volumes:
+      - '../public:/var/www/html/public'
+      - '../app:/var/www/html/fuel/app'
+
+  db:
+    image: 'mysql:5.7'
+    container_name: php_db
+    pull_policy: missing
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: ${MYSQL_DB_NAME}
+      MYSQL_USER: ${MYSQL_DB_USER}
+      MYSQL_PASSWORD: ${MYSQL_DB_PASSWORD}
+    ports:
+      - '3306:3306'
+    command: mysqld --sql-mode=NO_ENGINE_SUBSTITUTION --max_allowed_packet=1073741824
+    volumes:
+      - 'mysql_vol:/var/lib/mysql'
+      - '${SQL_BK_FILE}:/tmp/mysql-backup.sql'
+
+volumes:
+  mysql_vol:
+    
