@@ -28,6 +28,6 @@ return array(
 	 */
 
 	'log_threshold'   => Fuel::L_ALL,
-	'log_path'        => '/www/testserver5.oly.jp/stat/app/',
-	'log_file'        => 'application_log.'.date('Ymd'),
+	'log_path'        =>  APPPATH.'logs/',
+	
 );

@@ -19,7 +19,7 @@ class Controller_Api extends Controller_Rest
     public function after($response)
     {
         $response = parent::after($response);
-        $response->set_header('Access-Control-Allow-Credentials','true');   
+      
         // * should be coming env var
         $response->set_header('Access-Control-Allow-Origin','*');
         if ('OPTIONS' == $this->request->get_method())
@@ -48,11 +48,18 @@ class Controller_Api extends Controller_Rest
         return $logic->execute();
     }
 
-    public function post_login()
-    {
-        $logic = new Login();
-        return $logic->execute();
-    }
+    // public function post_login()
+    // {
+    //     $logic = new Login();
+    //     return $logic->execute();
+    // }
+public function post_login()
+{
+    return $this->response([
+        'status' => ['message' => 'success'],
+        'data' => ['note' => 'Login endpoint reached successfully']
+    ]);
+}
 
     public function action_listAdminContent()
     {

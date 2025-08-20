@@ -208,6 +208,7 @@ END;
 
     public static function get_by_mail_verify_password($mail, $password)
     {
+     
         $sql = self::SELECT_USER . self::GET_BY_MAIL;
         $result = DB::query($sql, DB::SELECT)->param('mail', $mail)->execute();
         Log::info('$result:' . var_export($result, true));

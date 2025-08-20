@@ -25,9 +25,9 @@ return array(
 		'connection' => array(
 			'hostname'       => '127.0.0.1',
 			'port'           => '3306',
-			'database'       => 'cums',
-			'username'       => 'root',
-			'password'       => 'oL8eS6hz',
+			'database'       => 'localdb',
+			'username'       => 'localdb',
+			'password'       => 'localdb',
 			'persistent'     => false,
 			'compress'       => false,
 		),
