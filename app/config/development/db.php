@@ -23,7 +23,7 @@ return array(
 	'default' => array(
 		'type'       => 'mysqli',
 		'connection' => array(
-			'hostname'       => '127.0.0.1',
+			'hostname'       => 'db',
 			'port'           => '3306',
 			'database'       => 'localdb',
 			'username'       => 'localdb',

@@ -52,14 +52,23 @@ class Controller_Api extends Controller_Rest
     // {
     //     $logic = new Login();
     //     return $logic->execute();
+        
     // }
-public function post_login()
+    public function post_login()
 {
-    return $this->response([
-        'status' => ['message' => 'success'],
-        'data' => ['note' => 'Login endpoint reached successfully']
-    ]);
+    $this->allowed_method = 'POST';
+    return $this->execute(new Login());
 }
+
+// public function post_login()
+// {
+//     $this->allowed_method = 'POST';
+
+//     return $this->response([
+//         'status' => ['message' => 'success'],
+//         'data' => ['note' => 'Login endpoint reached and working']
+//     ]);
+// }
 
     public function action_listAdminContent()
     {

@@ -19,6 +19,7 @@ class Login extends Api
 
     public function main()
     {
+        
         $this->result['data'] = User::get_by_mail_verify_password($this->mail, $this->password);
     }
 }

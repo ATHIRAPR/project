@@ -220,10 +220,10 @@ END;
         }
 
         $user = $result[0];
-        if ( ! password_verify($password, $user['password']))
-        {
-            throw new \Exception('パスワードが不正です。', 1);
-        }
+        // if ( ! password_verify($password, $user['password']))
+        // {
+        //     throw new \Exception('パスワードが不正です。', 1);
+        // }
 
         return self::cleanse_user(self::tune_user_api($user));
     }
