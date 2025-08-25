@@ -19,7 +19,7 @@ class Controller_Api extends Controller_Rest
     public function after($response)
     {
         $response = parent::after($response);
-        $response->set_header('Access-Control-Allow-Credentials','true');   
+       // $response->set_header('Access-Control-Allow-Credentials','true');   
         // * should be coming env var
         $response->set_header('Access-Control-Allow-Origin','*');
         if ('OPTIONS' == $this->request->get_method())
