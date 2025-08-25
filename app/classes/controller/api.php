@@ -1,5 +1,5 @@
 <?php
-
+ 
 use Cums\Logic\Login;
 use Cums\Logic\ListAdminContent;
 use Cums\Logic\ListMyContent;
@@ -10,16 +10,16 @@ use Cums\Logic\ListUser;
 use Cums\Logic\CreateOrUpdateUser;
 use Cums\Logic\ListDirectory;
 use Cums\Logic\CreateOrUpdateDirectory;
-
+ 
 class Controller_Api extends Controller_Rest
 {
     private $allowed_method = 'GET';
     private $method_not_allowed = false;
-
+ 
     public function after($response)
     {
         $response = parent::after($response);
-      
+        $response->set_header('Access-Control-Allow-Credentials','true');   
         // * should be coming env var
         $response->set_header('Access-Control-Allow-Origin','*');
         if ('OPTIONS' == $this->request->get_method())
@@ -33,7 +33,7 @@ class Controller_Api extends Controller_Rest
         }
         return $response;
     }
-
+ 
     private function execute($logic)
     {
         if ('OPTIONS' == $this->request->get_method())
@@ -47,72 +47,56 @@ class Controller_Api extends Controller_Rest
         }
         return $logic->execute();
     }
-
-    // public function post_login()
-    // {
-    //     $logic = new Login();
-    //     return $logic->execute();
-        
-    // }
+ 
     public function post_login()
-{
-    $this->allowed_method = 'POST';
-    return $this->execute(new Login());
-}
-
-// public function post_login()
-// {
-//     $this->allowed_method = 'POST';
-
-//     return $this->response([
-//         'status' => ['message' => 'success'],
-//         'data' => ['note' => 'Login endpoint reached and working']
-//     ]);
-// }
-
+    {
+        $logic = new Login();
+        return $logic->execute();
+    }
+ 
     public function action_listAdminContent()
     {
         return $this->execute(new ListAdminContent());
     }
-
+ 
     public function action_listMyContent()
     {
         return $this->execute(new ListMyContent());
     }
-
+ 
     public function action_updateAdminContent()
     {
         $this->allowed_method = 'PUT';
         return $this->execute(new UpdateAdminContent());
     }
-
+ 
     public function action_updateMyContent()
     {
         $this->allowed_method = 'PUT';
         return $this->execute(new UpdateMyContent());
     }
-
+ 
     public function action_listDomain()
     {
         return $this->execute(new ListDomain());
     }
-
+ 
     public function action_listUser()
     {
         return $this->execute(new ListUser());
     }
-
+ 
     public function action_createOrUpdateUser()
     {
         $this->allowed_method = 'PUT';
         return $this->execute(new CreateOrUpdateUser());
     }
-
+ 
     public function action_listDirectory()
     {
         return $this->execute(new ListDirectory());
     }
-
+ 
     public function action_createOrUpdateDirectory()
     {
         $this->allowed_method = 'PUT';
